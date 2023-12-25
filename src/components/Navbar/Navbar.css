@@ -1,0 +1,85 @@
+.header{
+    height: 3rem;
+    width: 100vw;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    position: relative;
+    
+ margin-top: 1rem;
+
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(84, 83, 83);
+}
+.icon{
+  
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  color:black ;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-menu{
+   margin-top: 1rem;
+    position: absolute;
+    z-index: 500;
+  padding-top: 2rem;
+   width: 1000px;
+   
+    background-color: white;
+    height: 26rem;
+    transition: all 0.5s ease;
+    opacity: 0;
+    visibility: hidden;
+    
+
+    
+}
+.navlist:hover .sub-menu{
+    margin-top: 0.5rem;
+    opacity: 1;
+    visibility: visible;
+}
+.four-menu-div{
+    
+    display: flex;
+    justify-content: space-around;
+   
+    height: 100%;
+}
+.four-menu-div h2{
+    font-size: 1.2rem ;
+    font-weight: 700;
+    color: orange;
+    margin-bottom: 1rem;
+}
+.four-menu-div ul {
+    list-style: none;
+}
+.four-menu-div ul li{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: rgb(84, 83, 83);
+   margin-top: 0.3rem;
+}
+.four-menu-div ul .list1{
+    font-size: 1.1rem;
+    color: orange;
+}
