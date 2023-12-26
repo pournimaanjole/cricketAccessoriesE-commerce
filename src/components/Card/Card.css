@@ -1,0 +1,53 @@
+.card-div{
+  
+    height:28rem ;
+    width: 19rem;
+}
+.brand{
+    display: block;
+    margin: 0.5rem 0;
+   
+    font-weight: lighter;
+    color: rgb(84, 83, 83);
+
+
+}
+.product-name-div{
+    
+    height: 3rem;
+}
+.productname{
+    
+    color: rgb(57, 55, 55);
+    
+}
+.oldprice{
+    color: rgb(125, 124, 124);
+}
+.newprice{
+    color: rgb(119, 119, 246);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.display-property{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+
+}
+
+.off-div{
+    
+    background-color: orange;
+    color: white;
+    font-size:0.9rem;
+    font-weight: 600;
+    height: 1.4rem;
+    padding: 0 0.3rem;
+}
+.add-to-card{
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}

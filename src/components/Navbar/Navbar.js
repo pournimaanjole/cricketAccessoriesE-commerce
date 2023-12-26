@@ -10,105 +10,72 @@ function Navbar() {
             <div className='header'>
                 <div className='container'>
 <ul className='navbar'>
-    <li className='navlist'><Link to='/badminton' className='link'>Badminton<FontAwesomeIcon icon={faAngleDown} className='icon' /> </Link>
-    <div className='sub-menu'>
-        {/* first div */}
-<div className='first-div'>
-<div>
-<h2></h2>
-<ul>
-    <li>Kashmir illon</li>
-    <li>English Willon</li>
-</ul>
-</div>
-<div>
-
-</div>
-<div>
-
-</div>
-</div>
-{/* second div */}
-
-<div className='second-div'>
-
-</div>
-<div className='third-div'>
-
-</div>
-<div className='fourth-div'>
-
-</div>
-<div className='fift-div'>
-
-</div>
-    </div>
-    
-    </li> 
+    <li className='navlist'><Link to='/badminton' className='link'>Badminton<FontAwesomeIcon icon={faAngleDown} className='icon' /> </Link></li> 
 
     <li className='navlist'><Link to='/cricket' className='link'>Cricket 
     <FontAwesomeIcon icon={faAngleDown} className='icon'  /></Link> 
     <div className='sub-menu'>
       <div className='four-menu-div'>
 <div> 
-<h2>Cricket Bats</h2>
+<span className='heading'>Cricket Bats</span>
 
 <ul><li className='list1'>By Willow</li>
-    <li>Kashmir Willow</li>
-    <li>English Willow</li>
+    <li><Link to={`/cricketbats/kashmir`} className='list-iteam'>Kashmir Willow</Link></li>
+    <li><Link to={`/cricketbats/english`} className='list-iteam'>English Willow</Link></li>
 </ul>
 
 <ul><li className='list1'>By Grade</li>
-    <li>Grade 1 Willow</li>
-    <li>Grade 2 Willow</li>
-    <li>Grade 3 Willow</li>
-    <li>Grade 4 Willow</li>
-    <li>Grade 5 Willow</li>
-    <li>Grade 6 Willow</li>
-    <li className='list1'>see all</li>
+    <li><Link to={'/grade'} className='list-iteam'> Grade 1 Willow </Link> </li>
+    <li><Link to={'/grade'} className='list-iteam'> Grade 2 Willow </Link> </li>
+    <li><Link to={'/grade'} className='list-iteam'> Grade 3 Willow </Link></li>
+    <li><Link to={'/grade'} className='list-iteam'> Grade 4 Willow </Link></li>
+    <li><Link to={'/grade'} className='list-iteam'> Grade 5 Willow </Link></li>
+    <li><Link to={'/grade'} className='list-iteam'> Grade 6 Willow </Link></li>
+    <li className='list1'><Link to={'/grade'} className='list1'> See all </Link></li>
 </ul>
 
 </div>
 
 <div>
-<h2>Cricket Shoes</h2>
+<span className='heading'>Cricket Shoes</span>
 <ul>
-    <li className='list1'>New Balance Shoes</li>
-    <li>Rubber Sole</li>
-    <li>Spikes</li>
+   
+    <li><Link to={'/newblance'} className='list-iteam'>New Balance Shoes</Link></li>
+    <li><Link to={'/rubberSoles'} className='list-iteam'>Rubber Sole</Link></li>
+    <li><Link to={'/spkies'} className='list-iteam'>Spikes</Link></li>
     <li className='list1'>see all</li>
 </ul>
 </div> 
 
 <div>
-<h2>Cricket Accesseries</h2>
+<span className='heading'>Cricket Accesseries</span>
 <ul>
-    <li className='list1'>Batting Gloves</li>
-    <li>Batting Pads</li>
-    <li>Wicketkeeping Gloves</li>
-    <li>Wicketkeeping Pads</li>
+    <li > <Link to={'/battingGloves'} className='list-iteam'>Batting Gloves </Link> </li>
+    <li> <Link to={'/battingPads'} className='list-iteam'>Batting Pads</Link> </li>
+    <li><Link to={'/wicketkeepingGloves'} className='list-iteam'>Wicketkeeping Gloves</Link>  </li>
+    <li> <Link to={'/wicketkeepingPads'} className='list-iteam'>Wicketkeeping Pads</Link></li>
     <li className='list1'>see all</li>
 </ul>
 </div>  
 <div>
-<h2>Cricket Bags</h2>
+<span className='heading'>Cricket Bags</span>
 <ul>
-    <li className='list1'>Wheelie Bags</li>
-    <li> Backpacks</li>
-    <li>Wicketkeeping Gloves</li>
-    <li>Wicketkeeping Pads</li>
+    <li > <Link to={'/bags'} className='list-iteam'> Wheelie Bags </Link></li>
+    <li><Link to={'/packs'} className='list-iteam'>Backpacks</Link> </li>
+    
     <li className='list1'>see all</li>
 </ul>
 </div>
 
 <div>
-<h2>Cricket Bags</h2>
+<span className='heading'>Cricket Brands</span>
 <ul>
-    <li className='list1'>Wheelie Bags</li>
-    <li> Backpacks</li>
-    <li>Wicketkeeping Gloves</li>
-    <li>Wicketkeeping Pads</li>
-    <li className='list1'>see all</li>
+    <li > <Link className='list-iteam'>SG</Link></li>
+    <li><Link className='list-iteam'> SS</Link> </li>
+    <li><Link className='list-iteam'>Adidas</Link> </li>
+    <li><Link className='list-iteam'>Adidas</Link></li>
+    <li><Link className='list-iteam'>DSC Cricket</Link></li>
+    
 </ul>
 </div>
 

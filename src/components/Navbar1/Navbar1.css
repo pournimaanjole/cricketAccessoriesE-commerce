@@ -9,10 +9,7 @@
 .logo-img{
     height: 2.3rem;
 }
-.search-div{
-  border: 1px solid black;
-  
-}
+
 .search-second-div{
     display: flex;
     align-items: center;

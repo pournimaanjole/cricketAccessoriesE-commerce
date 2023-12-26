@@ -1,0 +1,14 @@
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.discount-display{
+    border: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 5rem 6rem;
+
+
+}

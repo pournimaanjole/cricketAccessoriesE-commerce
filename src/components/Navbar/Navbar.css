@@ -1,6 +1,7 @@
 .header{
     height: 3rem;
     width: 100vw;
+    border-bottom: 1px solid rgb(165, 161, 161);
     
 }
 .container{
@@ -82,4 +83,24 @@
 .four-menu-div ul .list1{
     font-size: 1.1rem;
     color: orange;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+li .list-iteam{
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(125, 124, 124);
+    font-weight: 500;
+    transition: 0.3s;
+}
+li .list-iteam:hover{
+    color: black;
+
+}
+.heading{
+    font-size: 1.1rem;
+    color: orange;
+    font-weight: 700;
+    cursor: pointer;
 }
