@@ -58,3 +58,17 @@ h3{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+@media screen and (max-width:768px){
+    .right-div{
+        display: none;
+    }
+    .left-div{
+        border: 1px solid black;
+        width: 20rem;
+    }
+    .main-div-kashmir{
+        border: 1px solid black;
+      
+        padding: 0rem 1rem ;
+    }
+}

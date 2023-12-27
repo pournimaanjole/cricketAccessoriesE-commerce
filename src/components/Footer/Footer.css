@@ -1,0 +1,23 @@
+.footer-container{
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+}
+.footer-up{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 8rem;
+    border-bottom: 1px solid wheat;
+}
+.footer-div{
+   
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.footer-div img{
+    margin-right: 0.5rem;
+}
