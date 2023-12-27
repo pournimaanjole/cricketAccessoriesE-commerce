@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAngleDown} from '@fortawesome/free-solid-svg-icons'
 import {faPhoneVolume} from '@fortawesome/free-solid-svg-icons'
+
 import './Navbar.css'
 function Navbar() {
     return (

@@ -21,3 +21,29 @@
 .footer-div img{
     margin-right: 0.5rem;
 }
+.footer-down{
+ 
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 5rem 4rem;
+    border-bottom: 1px solid wheat;
+}
+.footer-down ul li{
+gap: 2.3rem;
+list-style: none;
+}
+.footer-down ul li {
+    text-decoration: none;
+    color: white;
+
+}
+.footer-link{
+    color: white;
+    text-decoration: none;
+   
+}
+
+.last-footer{
+    border: 1px solid white;
+}
